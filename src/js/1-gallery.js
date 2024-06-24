@@ -75,7 +75,7 @@ gallery.insertAdjacentHTML('afterbegin', createMarkup(images));
 //       <img src="${parent}" width="800" height="600"
 //        alt="${altDescription}">
 //   `);
-new SimpleLightbox('.gallery a');
+//new SimpleLightbox('.gallery a');
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionsDelay: 250,
